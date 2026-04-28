@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>王凯新 · 简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f1f4f8;
+            font-family: 'Segoe UI', 'Roboto', 'Noto Sans', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+            line-height: 1.5;
+            color: #1e2a3a;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        /* 头部区域 */
+        .header {
+            background: linear-gradient(135deg, #0f2b3d 0%, #1b4f6e 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+        }
+
+        .name {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.4rem;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            opacity: 0.85;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 0.8rem;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .contact span {
+            background: rgba(255,255,255,0.15);
+            padding: 0.25rem 0.8rem;
+            border-radius: 40px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .contact a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(255,255,255,0.4);
+        }
+
+        .contact a:hover {
+            border-bottom-color: white;
+        }
+
+        /* 主体内容 */
+        .content {
+            padding: 2rem 2rem 2.5rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0f2b3d;
+            border-left: 5px solid #1b6d8a;
+            padding-left: 1rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 1rem 1.5rem;
+        }
+
+        .subtitle {
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: #1b4f6e;
+            margin-bottom: 0.2rem;
+        }
+
+        .meta {
+            font-size: 0.85rem;
+            color: #5b6e7c;
+            margin-bottom: 0.5rem;
+        }
+
+        .desc {
+            font-size: 0.95rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .list-item {
+            margin-bottom: 1.2rem;
+        }
+
+        .skill-badge {
+            background: #eef2f5;
+            padding: 0.25rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            display: inline-block;
+            margin: 0.2rem 0.3rem;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e2e8f0;
+            margin: 1.2rem 0;
+        }
+
+        .quote-text {
+            background: #f8fafc;
+            padding: 1rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            border-left: 4px solid #1b6d8a;
+            margin: 1rem 0;
+        }
+
+        @media (max-width: 700px) {
+            .header {
+                padding: 1.8rem;
+            }
+            .name {
+                font-size: 2rem;
+            }
+            .content {
+                padding: 1.5rem;
+            }
+            .grid-2col {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+        }
+
+        .footer {
+            background: #f9fbfd;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.8rem;
+            color: #6c7a89;
+            border-top: 1px solid #e9edf2;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="name">王凯新</div>
+        <div class="tagline">湖南大学 · 物联网工程 · 大三 (2027届)   |   求职方向：LLM / Agent 测试与模型评测</div>
+        <div class="contact">
+            <span>📧 kaixinw@hnu.edu.cn</span>
+            <span>📞 13171660069</span>
+            <span>🌐 GitHub: <a href="https://github.com/wkxwkwxwkwkx" target="_blank">wkxwkwxwkwkx</a></span>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- 教育背景 -->
+        <div class="section">
+            <div class="section-title">🎓 教育背景</div>
+            <div><strong>湖南大学</strong> · 物联网工程 · 本科 · 2024.09 – 2027.06</div>
+            <div class="meta">主干课程：程序设计、计算机系统、数据结构、操作系统、计算机网络、人工智能、机器学习基础</div>
+            <div class="meta">英语：CET-4 (可流畅阅读英文技术文档及论文)</div>
+        </div>
+
+        <!-- 项目经历 -->
+        <div class="section">
+            <div class="section-title">📌 项目经历</div>
+
+            <div class="list-item">
+                <div class="subtitle">基于机器学习的 LOCA 预测</div>
+                <div class="meta">佘老师科研项目组 · 核心成员 | 2025.09 – 至今</div>
+                <div class="desc">参与失水事故安全参数预测课题，基于机器学习方法完成数据预处理与结果分析。负责结果一致性检查，对比不同配置下的预测输出，成功定位配置参数不一致导致的偏差，保障实验可靠性。</div>
+            </div>
+
+            <div class="list-item">
+                <div class="subtitle">腾讯广告算法大赛 KDD 2026</div>
+                <div class="meta">参赛选手 | 2026.02 – 至今</div>
+                <div class="desc">基于广告点击率预估任务，使用 LightGBM + 深度交叉网络完成特征工程与线下验证。负责编写 pytest 单元测试用例，覆盖缺失值处理与特征分桶边界，确保数据处理流水线稳定；通过命令行批量调度实验，利用 tail/grep 定位 OOM 异常并优化内存使用。</div>
+            </div>
+
+            <div class="list-item">
+                <div class="subtitle">智能体 (Agent) 协作实践 · vibe coding</div>
+                <div class="meta">个人学习 | 2025.12 – 至今</div>
+                <div class="desc">熟练使用 Claude Code 辅助代码修改：指导 AI 重构 YAML 配置解析模块，验证 <code>env_config.yaml</code> 字段读写一致性。能读懂 <code>grading_function.py</code> 评分逻辑，发现残缺输出处理的边界缺陷。习惯使用 <code>unittest</code> 编写最小可复现用例，测试 Agent 返回格式的稳定性。</div>
+            </div>
+        </div>
+
+        <!-- 个人优势（一段话） -->
+        <div class="section">
+            <div class="section-title">✨ 个人优势</div>
+            <div class="quote-text">
+                能熟练读懂 Python 代码与 YAML 配置，掌握命令行脚本执行与日志检查；擅长 vibe coding，通过 Claude Code 与 AI 高效协作改对代码；理解单元测试概念并能编写 pytest/unittest 用例；具有细心、挑剔的习惯，核心工作是“找不一致”，曾在项目中多次发现配置与输出差异；具备英文读写能力，可阅读论文与 API 文档。
+            </div>
+        </div>
+
+        <!-- 额外亮点 + 技能 -->
+        <div class="section">
+            <div class="section-title">⭐ 额外亮点</div>
+            <div class="grid-2col">
+                <div>
+                    <div class="subtitle">📐 技术型数据标注</div>
+                    <div class="desc">对500+条代码-自然语言对进行意图分类标注，总结12条标注歧义规则，使标注一致率从78%提升至94%。</div>
+                </div>
+                <div>
+                    <div class="subtitle">🧪 自动化测试习惯</div>
+                    <div class="desc">每次修改配置或 prompt 后运行 pytest，并用 diff 对比新旧输出，确保功能不退化。</div>
+                </div>
+                <div>
+                    <div class="subtitle">🔌 物联网工程背景</div>
+                    <div class="desc">硬件在环测试思维，擅长构造边界测试用例（截断、超长输入、特殊字符）。</div>
+                </div>
+                <div>
+                    <div class="subtitle">📄 英文读写能力</div>
+                    <div class="desc">可阅读 KDD 论文、OpenAI API 文档及 LangChain 官方示例，撰写简洁 commit message。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🧰 技能清单</div>
+            <div>
+                <span class="skill-badge">Python (熟练)</span>
+                <span class="skill-badge">SQL (基础)</span>
+                <span class="skill-badge">Shell (常用)</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">pytest / unittest</span>
+                <span class="skill-badge">Claude Code</span>
+                <span class="skill-badge">Docker (会跑容器)</span>
+                <span class="skill-badge">LLM 评测 / Agent 一致性检查</span>
+            </div>
+        </div>
+
+        <hr>
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; font-size: 0.9rem;">
+            <span>🏁 求职意向：LLM / Agent 方向测试 / 数据工程 / 模型评测实习生</span>
+            <span>📅 到岗时间：2026 年 6 月下旬，可连续实习 3 个月以上</span>
+        </div>
+    </div>
+    <div class="footer">
+        © 2026 王凯新 · 在线简历 | 设计简洁纯粹 · 信息真实可靠
+    </div>
+</div>
+</body>
+</html>
